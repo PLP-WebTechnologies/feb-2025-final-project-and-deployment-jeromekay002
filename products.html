@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link to css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar top -->
+    <nav id="navbar-example2" class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">ShoeStore</a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="category.html">Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- product details -->
+    <section class="product-details" id="products">
+        <div class="container">
+            <h2>Our Featured Products</h2>
+            <p>Explore our collection of stylish and comfortable footwear, perfect for every occasion.</p>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/running shoes.avif" alt="Running Shoes" class="product-image">
+                        <h3 class="product-title">Running Shoes</h3>
+                        <p class="product-desc">Lightweight and durable running shoes for active lifestyles.</p>
+                        <p class="product-price">$60.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/casual shoes.avif" alt="Casual Sneakers" class="product-image">
+                        <h3 class="product-title">Casual Sneakers</h3>
+                        <p class="product-desc">Trendy sneakers for casual outings and everyday wear.</p>
+                        <p class="product-price">$50.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/formal men.jpg" alt="Formal Shoes" class="product-image">
+                        <h3 class="product-title">Formal Shoes</h3>
+                        <p class="product-desc">Elegant formal shoes for office and special occasions.</p>
+                        <p class="product-price">$70.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/boots.avif" alt="Boots" class="product-image">
+                        <h3 class="product-title">Boots</h3>
+                        <p class="product-desc">Durable boots designed for comfort and rugged style.</p>
+                        <p class="product-price">$80.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/sandals-2.jpg" alt="Sandals" class="product-image">
+                        <h3 class="product-title">Sandals</h3>
+                        <p class="product-desc">Breathable sandals for warm weather and casual wear.</p>
+                        <p class="product-price">$40.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/sports shoes.avif" alt="Sports Shoes" class="product-image">
+                        <h3 class="product-title">Sports Shoes</h3>
+                        <p class="product-desc">High-performance shoes for sports and outdoor activities.</p>
+                        <p class="product-price">$90.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/loafers.avif" alt="Loafers" class="product-image">
+                        <h3 class="product-title">Loafers</h3>
+                        <p class="product-desc">Stylish loafers for a smart and casual look.</p>
+                        <p class="product-price">$65.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-md-3">
+                    <div class="product-item">
+                        <img src="images/slip.avif" alt="Slip-Ons" class="product-image">
+                        <h3 class="product-title">Slip-Ons</h3>
+                        <p class="product-desc">Convenient and comfortable slip-on shoes for daily wear.</p>
+                        <p class="product-price">$55.00</p>
+                        <button class="btn add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shopping-cart">
+        <div class="cart-overlay"></div>
+        <div class="cart-container">
+            <button class="close-cart-btn">&times;</button> <!-- Close Button -->
+            <h2>Your Shopping Cart</h2>
+            <p>Review the items you’ve selected before proceeding to checkout.</p>
+            <div class="cart-items">
+                <!-- Example Cart Item -->
+                <div class="cart-item">
+                    <img src="images/shoe bg2.jpg" alt="Running Shoes" class="cart-item-image">
+                    <div class="cart-item-details">
+                        <h3 class="cart-item-title">Running Shoes</h3>
+                        <p class="cart-item-desc">Lightweight and durable running shoes for active lifestyles.</p>
+                        <p class="cart-item-price">$50.00</p>
+                        <button class="btn remove-item">Remove</button>
+                    </div>
+                </div>
+                <!-- Add more cart items dynamically -->
+            </div>
+            <div class="cart-summary">
+                <h3>Total: <span class="cart-total">$50.00</span></h3>
+                <button class="btn checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <h4>About Us</h4>
+                    <p>ShoeStore is your one-stop shop for stylish and comfortable footwear. We offer a wide range of
+                        shoes for every occasion.</p>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#category">Category</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Section -->
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Email: support@shoestore.com</p>
+                    <p>Phone: +2547906568045</p>
+                    <p>Address: Nairibi, Kenya </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ShoeStore. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
+        </script>
+
+    <script src="js/functions.js"></script>
+</body>
+
+</html>
