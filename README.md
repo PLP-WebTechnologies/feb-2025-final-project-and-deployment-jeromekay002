@@ -37,7 +37,5 @@ This project is a fully functional multipage eCommerce website designed to showc
 - **Navigation**: A user-friendly navigation bar for easy access to different pages.
 - **Deployment**: The website is deployed and accessible via a live URL.
 
-## Instructions for Deployment and Usage
-1. Clone the repository to your local machine:
-   ```bash
-   git clone <repository-url>
+## Live Site
+[Click to view](https://feb-2025-final-project-and-deployment-jeromekay002.vercel.app/)
